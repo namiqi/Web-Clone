@@ -1,0 +1,30 @@
+title: Default Page
+preset: page
+
+fields:
+  text:
+    label: Text
+    type: textarea
+    size: large
+  toggle:
+    label: Toggle
+    type: toggle
+    text: Turn on/off index
+  name:
+    label: Meta Title
+    type: text
+
+  meta title:
+    label: Meta Title
+    type: text
+  meta description:
+    label: Meta Description
+    type: text
+
+columns:
+  - width: 1/2
+    fields:
+      text:
+        label: Text
+        type: textarea
+        size: huge
